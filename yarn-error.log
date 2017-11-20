@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js add --dev jest
+  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js add --dev react-test-renderer
 
 PATH: 
   /Users/zhangbang/.nvm/versions/node/v7.9.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin
@@ -21,7 +21,8 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-      "webpack": "webpack -wd"
+      "webpack": "webpack -wd",
+      "test": "jest --watch"
     },
     "babel": {
       "presets": [
@@ -33,7 +34,8 @@ npm manifest:
     "devDependencies": {
       "babel-eslint": "^8.0.2",
       "eslint": "^4.11.0",
-      "eslint-plugin-react": "^7.4.0"
+      "eslint-plugin-react": "^7.4.0",
+      "jest": "^21.2.1"
     },
     "dependencies": {
       "babel-cli": "^6.26.0",
@@ -4162,8 +4164,4 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: https://registry.npm.taobao.org/jest: ETIMEDOUT
-      at Timeout._onTimeout (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:114906:19)
-      at ontimeout (timers.js:386:14)
-      at tryOnTimeout (timers.js:250:5)
-      at Timer.listOnTimeout (timers.js:214:5)
+  Error: EEXIST: file already exists, mkdir '/Users/zhangbang/project/advanced-react/node_modules/browser-resolve'
