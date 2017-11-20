@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "delete": "pm2 delete all",
+    "list": "pm2 list"
   },
   "babel": {
     "presets": [

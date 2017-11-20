@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js add --dev react-test-renderer
+  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js install
 
 PATH: 
-  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+  /Users/zhangbang/.nvm/versions/node/v7.9.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
   0.27.5
@@ -4164,4 +4164,4 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: EEXIST: file already exists, mkdir '/Users/zhangbang/project/advanced-react/node_modules/browser-resolve'
+  Error: EEXIST: file already exists, mkdir '/Users/zhangbang/project/advanced-react/node_modules/acorn-globals'
