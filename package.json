@@ -36,6 +36,8 @@
     "pm2": "^2.7.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "react-test-render": "^1.1.1",
+    "react-test-renderer": "^16.1.1",
     "webpack": "^3.8.1"
   }
 }

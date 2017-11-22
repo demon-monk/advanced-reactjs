@@ -2454,6 +2454,10 @@ ignore@^3.3.3:
   version "3.3.7"
   resolved "http://registry.npm.taobao.org/ignore/download/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 
+immutable@3.7.x:
+  version "3.7.6"
+  resolved "http://registry.npm.taobao.org/immutable/download/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
+
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/imurmurhash/download/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
@@ -3163,6 +3167,10 @@ lodash.isequal@^4.0.0:
 lodash.merge@^4.6.0:
   version "4.6.0"
   resolved "http://registry.npm.taobao.org/lodash.merge/download/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+
+lodash@3.10.x:
+  version "3.10.1"
+  resolved "http://registry.npm.taobao.org/lodash/download/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.14.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
@@ -3923,6 +3931,26 @@ react-dom@^16.1.1:
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
+react-shallow-testutils@2.0.x:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/react-shallow-testutils/download/react-shallow-testutils-2.0.0.tgz#9087b40b368b124674c7bfcf9fdd6ad983914a97"
+
+react-test-render@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.npm.taobao.org/react-test-render/download/react-test-render-1.1.1.tgz#35946bb383f8b82564768fd9d8eaf120c3032a9a"
+  dependencies:
+    immutable "3.7.x"
+    lodash "3.10.x"
+    react-shallow-testutils "2.0.x"
+
+react-test-renderer@^16.1.1:
+  version "16.1.1"
+  resolved "http://registry.npm.taobao.org/react-test-renderer/download/react-test-renderer-16.1.1.tgz#a05184688d564be799f212449262525d1e350537"
+  dependencies:
+    fbjs "^0.8.16"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
