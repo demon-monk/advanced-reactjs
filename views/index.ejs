@@ -5,7 +5,10 @@
         <title>首页</title>
     </head>
     <body>
-        <div id="root"><%- answer -%></div>
+        <script>
+          window.initialData = <%- JSON.stringify(initialData) -%>;
+        </script>
+        <div id="root"><%- initialMarkup -%></div>
         <script type="text/javascript" src="/bundle.js">
 
         </script>
