@@ -1,80 +1,114 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList renders correctly 1`] = `
-<div>
-  <div
-    style={
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArticleList
+    articles={
       Object {
-        "padding": 50,
+        "a": "a",
+        "b": "b",
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontSize": 30,
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#999",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={undefined}
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={undefined}
-    />
-  </div>
-  <div
-    style={
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Article
+          article="a"
+        />,
+        <Article
+          article="b"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
       Object {
-        "padding": 50,
-      }
-    }
-  >
-    <div
-      style={
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "article": "a",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "article": "b",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Article
+            article="a"
+          />,
+          <Article
+            article="b"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
-          "fontSize": 30,
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "article": "a",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
-          "color": "#999",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={undefined}
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={undefined}
-    />
-  </div>
-</div>
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "article": "b",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
