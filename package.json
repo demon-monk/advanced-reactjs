@@ -34,6 +34,7 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "pm2": "^2.7.2",
+    "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-test-render": "^1.1.1",
