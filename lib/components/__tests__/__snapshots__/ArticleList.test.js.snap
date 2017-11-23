@@ -25,10 +25,10 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Article
+        <ArticleContainer
           article="a"
         />,
-        <Article
+        <ArticleContainer
           article="b"
         />,
       ],
@@ -67,10 +67,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Article
+          <ArticleContainer
             article="a"
           />,
-          <Article
+          <ArticleContainer
             article="b"
           />,
         ],
