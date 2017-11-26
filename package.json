@@ -7,6 +7,8 @@
     "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch",
+    "coverage": "jest --coverage",
+    "build": "webpack -p",
     "delete": "pm2 delete all",
     "list": "pm2 list"
   },
