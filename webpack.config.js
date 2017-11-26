@@ -27,9 +27,14 @@ module.exports = {
   module: {
     rules: [
       {
-        use: 'babel-loader',
         exclude: /node_modules/,
-        test: /\.js$/
+        test: /\.js$/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['react', 'env', 'stage-2']
+          }
+        }
       }
     ]
   },

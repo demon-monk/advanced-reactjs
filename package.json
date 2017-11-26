@@ -9,14 +9,18 @@
     "test": "jest --watch",
     "coverage": "jest --coverage",
     "build": "webpack -p",
+    "build-node": "babel lib -d build --copy-files",
     "delete": "pm2 delete all",
     "list": "pm2 list"
   },
   "babel": {
     "presets": [
       "react",
-      "env",
-      "stage-2"
+      ["env", { "targets": { "node": "current" } }]
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
     ]
   },
   "devDependencies": {
