@@ -4,12 +4,13 @@
   "main": "lib/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node --name appDev",
     "webpack": "webpack -wd",
     "test": "jest --watch",
     "coverage": "jest --coverage",
     "build": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
+    "prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProd",
     "delete": "pm2 delete all",
     "list": "pm2 list"
   },
